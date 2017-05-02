@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5DAEF381EB8137900B6CE80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEF371EB8137900B6CE80 /* main.m */; };
+		D5DAEF3B1EB8137900B6CE80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEF3A1EB8137900B6CE80 /* AppDelegate.m */; };
+		D5DAEF3E1EB8137900B6CE80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEF3D1EB8137900B6CE80 /* ViewController.m */; };
+		D5DAEF411EB8137900B6CE80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DAEF3F1EB8137900B6CE80 /* Main.storyboard */; };
+		D5DAEF431EB8137900B6CE80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DAEF421EB8137900B6CE80 /* Assets.xcassets */; };
+		D5DAEF461EB8137900B6CE80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DAEF441EB8137900B6CE80 /* LaunchScreen.storyboard */; };
+		D5DAEF511EB8137900B6CE80 /* XMTimePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEF501EB8137900B6CE80 /* XMTimePickerDemoTests.m */; };
+		D5DAEF5C1EB8137900B6CE80 /* XMTimePickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEF5B1EB8137900B6CE80 /* XMTimePickerDemoUITests.m */; };
+		D5DAEF6C1EB813FE00B6CE80 /* XMTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEF6B1EB813FE00B6CE80 /* XMTimePicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5DAEF4D1EB8137900B6CE80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DAEF2B1EB8137900B6CE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DAEF321EB8137900B6CE80;
+			remoteInfo = XMTimePickerDemo;
+		};
+		D5DAEF581EB8137900B6CE80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DAEF2B1EB8137900B6CE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DAEF321EB8137900B6CE80;
+			remoteInfo = XMTimePickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5DAEF331EB8137900B6CE80 /* XMTimePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMTimePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DAEF371EB8137900B6CE80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5DAEF391EB8137900B6CE80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5DAEF3A1EB8137900B6CE80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5DAEF3C1EB8137900B6CE80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5DAEF3D1EB8137900B6CE80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5DAEF401EB8137900B6CE80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5DAEF421EB8137900B6CE80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5DAEF451EB8137900B6CE80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5DAEF471EB8137900B6CE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DAEF4C1EB8137900B6CE80 /* XMTimePickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTimePickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DAEF501EB8137900B6CE80 /* XMTimePickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTimePickerDemoTests.m; sourceTree = "<group>"; };
+		D5DAEF521EB8137900B6CE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DAEF571EB8137900B6CE80 /* XMTimePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTimePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DAEF5B1EB8137900B6CE80 /* XMTimePickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTimePickerDemoUITests.m; sourceTree = "<group>"; };
+		D5DAEF5D1EB8137900B6CE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DAEF6A1EB813FE00B6CE80 /* XMTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTimePicker.h; sourceTree = "<group>"; };
+		D5DAEF6B1EB813FE00B6CE80 /* XMTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTimePicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DAEF301EB8137900B6CE80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAEF491EB8137900B6CE80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAEF541EB8137900B6CE80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5DAEF2A1EB8137900B6CE80 = {
+			isa = PBXGroup;
+			children = (
+				D5DAEF351EB8137900B6CE80 /* XMTimePickerDemo */,
+				D5DAEF4F1EB8137900B6CE80 /* XMTimePickerDemoTests */,
+				D5DAEF5A1EB8137900B6CE80 /* XMTimePickerDemoUITests */,
+				D5DAEF341EB8137900B6CE80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DAEF341EB8137900B6CE80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEF331EB8137900B6CE80 /* XMTimePickerDemo.app */,
+				D5DAEF4C1EB8137900B6CE80 /* XMTimePickerDemoTests.xctest */,
+				D5DAEF571EB8137900B6CE80 /* XMTimePickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DAEF351EB8137900B6CE80 /* XMTimePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEF691EB813D600B6CE80 /* XMTimePicker */,
+				D5DAEF391EB8137900B6CE80 /* AppDelegate.h */,
+				D5DAEF3A1EB8137900B6CE80 /* AppDelegate.m */,
+				D5DAEF3C1EB8137900B6CE80 /* ViewController.h */,
+				D5DAEF3D1EB8137900B6CE80 /* ViewController.m */,
+				D5DAEF3F1EB8137900B6CE80 /* Main.storyboard */,
+				D5DAEF421EB8137900B6CE80 /* Assets.xcassets */,
+				D5DAEF441EB8137900B6CE80 /* LaunchScreen.storyboard */,
+				D5DAEF471EB8137900B6CE80 /* Info.plist */,
+				D5DAEF361EB8137900B6CE80 /* Supporting Files */,
+			);
+			path = XMTimePickerDemo;
+			sourceTree = "<group>";
+		};
+		D5DAEF361EB8137900B6CE80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEF371EB8137900B6CE80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5DAEF4F1EB8137900B6CE80 /* XMTimePickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEF501EB8137900B6CE80 /* XMTimePickerDemoTests.m */,
+				D5DAEF521EB8137900B6CE80 /* Info.plist */,
+			);
+			path = XMTimePickerDemoTests;
+			sourceTree = "<group>";
+		};
+		D5DAEF5A1EB8137900B6CE80 /* XMTimePickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEF5B1EB8137900B6CE80 /* XMTimePickerDemoUITests.m */,
+				D5DAEF5D1EB8137900B6CE80 /* Info.plist */,
+			);
+			path = XMTimePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		D5DAEF691EB813D600B6CE80 /* XMTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEF6A1EB813FE00B6CE80 /* XMTimePicker.h */,
+				D5DAEF6B1EB813FE00B6CE80 /* XMTimePicker.m */,
+			);
+			path = XMTimePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DAEF321EB8137900B6CE80 /* XMTimePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DAEF601EB8137900B6CE80 /* Build configuration list for PBXNativeTarget "XMTimePickerDemo" */;
+			buildPhases = (
+				D5DAEF2F1EB8137900B6CE80 /* Sources */,
+				D5DAEF301EB8137900B6CE80 /* Frameworks */,
+				D5DAEF311EB8137900B6CE80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMTimePickerDemo;
+			productName = XMTimePickerDemo;
+			productReference = D5DAEF331EB8137900B6CE80 /* XMTimePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5DAEF4B1EB8137900B6CE80 /* XMTimePickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DAEF631EB8137900B6CE80 /* Build configuration list for PBXNativeTarget "XMTimePickerDemoTests" */;
+			buildPhases = (
+				D5DAEF481EB8137900B6CE80 /* Sources */,
+				D5DAEF491EB8137900B6CE80 /* Frameworks */,
+				D5DAEF4A1EB8137900B6CE80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DAEF4E1EB8137900B6CE80 /* PBXTargetDependency */,
+			);
+			name = XMTimePickerDemoTests;
+			productName = XMTimePickerDemoTests;
+			productReference = D5DAEF4C1EB8137900B6CE80 /* XMTimePickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5DAEF561EB8137900B6CE80 /* XMTimePickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DAEF661EB8137900B6CE80 /* Build configuration list for PBXNativeTarget "XMTimePickerDemoUITests" */;
+			buildPhases = (
+				D5DAEF531EB8137900B6CE80 /* Sources */,
+				D5DAEF541EB8137900B6CE80 /* Frameworks */,
+				D5DAEF551EB8137900B6CE80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DAEF591EB8137900B6CE80 /* PBXTargetDependency */,
+			);
+			name = XMTimePickerDemoUITests;
+			productName = XMTimePickerDemoUITests;
+			productReference = D5DAEF571EB8137900B6CE80 /* XMTimePickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DAEF2B1EB8137900B6CE80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Justming;
+				TargetAttributes = {
+					D5DAEF321EB8137900B6CE80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2BPVM7PZ48;
+						ProvisioningStyle = Automatic;
+					};
+					D5DAEF4B1EB8137900B6CE80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2BPVM7PZ48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5DAEF321EB8137900B6CE80;
+					};
+					D5DAEF561EB8137900B6CE80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2BPVM7PZ48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5DAEF321EB8137900B6CE80;
+					};
+				};
+			};
+			buildConfigurationList = D5DAEF2E1EB8137900B6CE80 /* Build configuration list for PBXProject "XMTimePickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5DAEF2A1EB8137900B6CE80;
+			productRefGroup = D5DAEF341EB8137900B6CE80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DAEF321EB8137900B6CE80 /* XMTimePickerDemo */,
+				D5DAEF4B1EB8137900B6CE80 /* XMTimePickerDemoTests */,
+				D5DAEF561EB8137900B6CE80 /* XMTimePickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DAEF311EB8137900B6CE80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DAEF461EB8137900B6CE80 /* LaunchScreen.storyboard in Resources */,
+				D5DAEF431EB8137900B6CE80 /* Assets.xcassets in Resources */,
+				D5DAEF411EB8137900B6CE80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAEF4A1EB8137900B6CE80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAEF551EB8137900B6CE80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DAEF2F1EB8137900B6CE80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DAEF3E1EB8137900B6CE80 /* ViewController.m in Sources */,
+				D5DAEF3B1EB8137900B6CE80 /* AppDelegate.m in Sources */,
+				D5DAEF381EB8137900B6CE80 /* main.m in Sources */,
+				D5DAEF6C1EB813FE00B6CE80 /* XMTimePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAEF481EB8137900B6CE80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DAEF511EB8137900B6CE80 /* XMTimePickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAEF531EB8137900B6CE80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DAEF5C1EB8137900B6CE80 /* XMTimePickerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5DAEF4E1EB8137900B6CE80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DAEF321EB8137900B6CE80 /* XMTimePickerDemo */;
+			targetProxy = D5DAEF4D1EB8137900B6CE80 /* PBXContainerItemProxy */;
+		};
+		D5DAEF591EB8137900B6CE80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DAEF321EB8137900B6CE80 /* XMTimePickerDemo */;
+			targetProxy = D5DAEF581EB8137900B6CE80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5DAEF3F1EB8137900B6CE80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DAEF401EB8137900B6CE80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5DAEF441EB8137900B6CE80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DAEF451EB8137900B6CE80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5DAEF5E1EB8137900B6CE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5DAEF5F1EB8137900B6CE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5DAEF611EB8137900B6CE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2BPVM7PZ48;
+				INFOPLIST_FILE = XMTimePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Justming.XMTimePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5DAEF621EB8137900B6CE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2BPVM7PZ48;
+				INFOPLIST_FILE = XMTimePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Justming.XMTimePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5DAEF641EB8137900B6CE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2BPVM7PZ48;
+				INFOPLIST_FILE = XMTimePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Justming.XMTimePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTimePickerDemo.app/XMTimePickerDemo";
+			};
+			name = Debug;
+		};
+		D5DAEF651EB8137900B6CE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2BPVM7PZ48;
+				INFOPLIST_FILE = XMTimePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Justming.XMTimePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTimePickerDemo.app/XMTimePickerDemo";
+			};
+			name = Release;
+		};
+		D5DAEF671EB8137900B6CE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2BPVM7PZ48;
+				INFOPLIST_FILE = XMTimePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Justming.XMTimePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMTimePickerDemo;
+			};
+			name = Debug;
+		};
+		D5DAEF681EB8137900B6CE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2BPVM7PZ48;
+				INFOPLIST_FILE = XMTimePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Justming.XMTimePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMTimePickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DAEF2E1EB8137900B6CE80 /* Build configuration list for PBXProject "XMTimePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DAEF5E1EB8137900B6CE80 /* Debug */,
+				D5DAEF5F1EB8137900B6CE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DAEF601EB8137900B6CE80 /* Build configuration list for PBXNativeTarget "XMTimePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DAEF611EB8137900B6CE80 /* Debug */,
+				D5DAEF621EB8137900B6CE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5DAEF631EB8137900B6CE80 /* Build configuration list for PBXNativeTarget "XMTimePickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DAEF641EB8137900B6CE80 /* Debug */,
+				D5DAEF651EB8137900B6CE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5DAEF661EB8137900B6CE80 /* Build configuration list for PBXNativeTarget "XMTimePickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DAEF671EB8137900B6CE80 /* Debug */,
+				D5DAEF681EB8137900B6CE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DAEF2B1EB8137900B6CE80 /* Project object */;
+}
