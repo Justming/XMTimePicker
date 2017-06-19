@@ -26,8 +26,11 @@
  picker.delegate = self;
 
  
- 6.实现代理方法
+ 6.根据需要实现代理方法
+ (1)年 月 日 时 分 秒
  - (void)getDate:(NSString *)date andHour:(NSString *)hour andMinute:(NSString *)minute;
+ (2)年月日
+ - (void)getYear:(NSString *)year month:(NSString *)month day:(NSString *)day;
  
  
  GitHub地址：https://github.com/Justming/XMTimePicker.git
