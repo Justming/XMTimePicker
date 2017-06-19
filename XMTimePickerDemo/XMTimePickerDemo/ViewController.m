@@ -32,7 +32,7 @@
 }
 
 - (void)addTimePicker{
-    _timePicker = [[XMTimePicker alloc] initWithFrame:CGRectMake(0, HEIGHT-200, WIDTH, 200)];
+    _timePicker = [[XMTimePicker alloc] initWithFrame:CGRectMake(0, HEIGHT-200, WIDTH, 200) andType:PickerTypeOnlyDate];
     _timePicker.delegate = self;
 //    _timePicker.startDate = @"2017-05-15"; //开始日期
 //    _timePicker.endDate = @"2017-08-15";   //截止日期
@@ -47,6 +47,11 @@
     
     NSLog(@"%@%@时%@分", date, hour, minute);
     
+}
+
+- (void)getYear:(NSString *)year month:(NSString *)month day:(NSString *)day {
+    
+    NSLog(@"%@%@%@", year, month, day);
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
