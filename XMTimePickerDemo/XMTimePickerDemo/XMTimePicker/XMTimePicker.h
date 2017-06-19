@@ -13,7 +13,7 @@
  1.导入头文件
  #import "XMTimePicker.h"
  
- 2.创建城市选择器
+ 2.创建对象并指定类型  (1)PickerTypeOnlyDate  年月日   (2)PickerTypeDateAndTime 年 月 日 时 分 秒
  XMTimePicker * picker; = [[XMTimePicker alloc] initWithFrame:CGRectMake(0, HEIGHT-200, WIDTH, 200) andType:PickerTypeOnlyDate];
  
  3.设置参数

@@ -13,8 +13,8 @@
  1.导入头文件
  #import "XMTimePicker.h"
  
- 2.创建城市选择器
- XMTimePicker * picker; = [[XMTimePicker alloc] initWithFrame:CGRectMake(0, HEIGHT-200, WIDTH, 200)];
+ 2.创建对象并指定类型  (1)PickerTypeOnlyDate  年月日   (2)PickerTypeDateAndTime 年 月 日 时 分 秒
+ XMTimePicker * picker; = [[XMTimePicker alloc] initWithFrame:CGRectMake(0, HEIGHT-200, WIDTH, 200) andType:PickerTypeOnlyDate];
  
  3.设置参数
  开始日期，截止日期，背景颜色、字体颜色、字体大小、取消和确定按钮颜色
@@ -36,10 +36,12 @@
  */
 
 
+
 #import <UIKit/UIKit.h>
 
 @protocol XMTimePickerDelegate <NSObject>
 
+@optional
 /**
  获取时间
 
@@ -49,10 +51,26 @@
  */
 - (void)getDate:(NSString *)date andHour:(NSString *)hour andMinute:(NSString *)minute;
 
+/**
+ 获取年月日
+
+ @param year 年
+ @param month 月
+ @param day 日
+ */
+- (void)getYear:(NSString *)year month:(NSString *)month day:(NSString *)day;
+
 @end
 
 @interface XMTimePicker : UIView
 
+
+typedef NS_ENUM(NSUInteger, PickerType) {
+    PickerTypeOnlyDate,     //年 月 日
+    PickerTypeDateAndTime,  //年 月 日 时 分 秒
+};
+
+@property (nonatomic, assign) PickerType pickerType;
 
 /**
  是否添加到父视图上
@@ -105,5 +123,8 @@
  设置属性后初始化时间选择器
  */
 - (void)initTimePicker;
+
+
+- (instancetype)initWithFrame:(CGRect)frame andType:(PickerType)type;
 
 @end
